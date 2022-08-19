@@ -1,0 +1,3 @@
+= render "remote_modal", title: "Personal Details" do
+  div[data-form-validation-target="output" data-form-validation-url-value="<%= person_path %>"]
+  = render "form", person: @person
